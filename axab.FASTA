@@ -1,3 +1,6 @@
+Results of A as query against concatenated A&B
+
+
 usearch -usearch_global /Users/suzannegreenwood/Downloads/influenza a -db /Users/suzannegreenwood/Downloads/influenzaaxb.FASTA -id 0.8 -strand plus -alnout axab.FASTA 
 usearch v9.0.2132_i86osx32, 4.0Gb RAM (8.6Gb total), 4 cores
 
