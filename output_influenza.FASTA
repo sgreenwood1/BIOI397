@@ -1,3 +1,5 @@
+concatenated as the query and database
+
 usearch -usearch_global /Users/suzannegreenwood/Downloads/influenzaaxb.FASTA -db /Users/suzannegreenwood/Downloads/influenzaaxb.FASTA -alnout output_influenza.FASTA -strand plus -id 0.8 
 usearch v9.0.2132_i86osx32, 4.0Gb RAM (8.6Gb total), 4 cores
 
