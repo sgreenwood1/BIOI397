@@ -1,0 +1,185 @@
+usearch -ublast /Users/suzannegreenwood/Downloads/Wolbachia pip.txt -db /Users/suzannegreenwood/Downloads/drosophila -evalue 5e-5 -accel 0.5 -strand plus -alnout wolbach_x_drosoph_result.aln 
+usearch v9.0.2132_i86osx32, 4.0Gb RAM (8.6Gb total), 4 cores
+
+Query >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+ Score     Evalue   %Id    QueryLo-Hi(Un)   TargetLo-Hi(Un)  +  Target
+    69      4e-25   71%  188218-188799(1078983)  1033628-1034209(313922)  +  NC_004353.4 Drosophila melanogaster chromosome 4
+    57      2e-18   72%  1075305-1075634(192148)  15986086-15986415(7555856)  +  NC_004354.4 Drosophila melanogaster chromosome X
+    44      3e-11   76%  281088-281251(986531)  2065-2228(17296)  +  NC_024511.2 Drosophila melanogaster mitochondrion, complete genome
+    37      2e-07   95%  182848-182890(1084892)  47125-47167(29806)  +  NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+    37      2e-07   95%  182848-182890(1084892)  71309-71351(5622)  +  NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+    37      2e-07   95%  182848-182890(1084892)  23214806-23214848(327423)  +  NC_004354.4 Drosophila melanogaster chromosome X
+    37      2e-07   95%  182848-182890(1084892)  23206176-23206218(336053)  +  NC_004354.4 Drosophila melanogaster chromosome X
+    37      2e-07   95%  182848-182890(1084892)    2512-2554(350)  +  NW_001845390.1 Drosophila melanogaster chromosome X 211000022278724 sequence
+    37      2e-07   95%  182848-182890(1084892)  17290-17332(59641)  +  NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+    37      2e-07   95%  182848-182890(1084892)      604-646(669)  +  NW_001846251.1 Drosophila melanogaster 211000022279343 sequence
+    33      4e-05   72%  472437-472652(795130)  10190250-10190465(13323247)  +  NT_033779.5 Drosophila melanogaster chromosome 2L
+    33      4e-05   82%  150308-150379(1117403)  8250860-8250931(15291340)  +  NC_004354.4 Drosophila melanogaster chromosome X
+
+ Query    1267782nt >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+Target    1348131nt >NC_004353.4 Drosophila melanogaster chromosome 4
+
+Qry     188218 + GTTTATGGTCAGATGAATGAGCCTCCTGGAGCAAGGGCTAGAGTTGCTTTAACAGCACTTACTATGGCAGAGTATTTTCG 188297
+                 || ||||| || ||||| ||||| || || ||  | ||  | |||||| |||| | ||| ||  | |||||||| || ||
+Tgt    1033628 + GTATATGGGCAAATGAACGAGCCGCCAGGTGCTCGTGCCCGTGTTGCTCTAACTGGACTGACCGTTGCAGAGTACTTCCG 1033707
+
+Qry     188298 + TGACCGTGAAAACCAAGATGTTCTATTTTTTGTGGATAATATCTTTAGATTTACACAAGCTGGTTCTGAAATTTCTGCTT 188377
+                 ||| |  |||   || |||||  |  | ||| | || || || ||  ||||||| |||||||| || ||| | || ||||
+Tgt    1033708 + TGATCAAGAAGGACAGGATGTGTTGCTGTTTATCGACAACATTTTCCGATTTACTCAAGCTGGCTCAGAAGTGTCCGCTT 1033787
+
+Qry     188378 + TACTTGGAAGAATACCGTCAGCTGTTGGTTATCAGCCAACCCTTGCAACTGATATGGGTGCAATGCAAGAAAGAATAGCT 188457
+                 |  | ||  | || || ||||| || ||||| ||||||||| | || || || |||||| | ||||| ||  | ||  | 
+Tgt    1033788 + TGTTGGGTCGTATTCCCTCAGCCGTCGGTTACCAGCCAACCTTGGCTACCGACATGGGTTCTATGCAGGAGCGTATTACC 1033867
+
+Qry     188458 + TCAACAACTTCTGGCTCTATTACTTCTGTGCAAGCTATATATGTTCCTGCGGACGATTTGACTGATCCAGCCCCAGCAAC 188537
+                  | || |     || || ||||||||||| || || |||||||| || || || |||||||| ||||| || || || ||
+Tgt    1033868 + ACCACCAAAAAGGGATCCATTACTTCTGTTCAGGCCATATATGTGCCCGCTGATGATTTGACCGATCCTGCTCCTGCTAC 1033947
+
+Qry     188538 + TACATTCTCTCACCTTGATGCAACCACAGTGTTGTCAAGGCAAATAGCTGAAATGGGAATATACCCTGCTGTTGATCCAC 188617
+                 ||||||| ||||  | ||||| ||||| ||  | ||  |    || || ||| |||| || ||||||||||| |||||||
+Tgt    1033948 + TACATTCGCTCATTTGGATGCCACCACTGTACTCTCGCGTGCGATTGCCGAACTGGGTATTTACCCTGCTGTGGATCCAC 1034027
+
+Qry     188618 + TTGATTCAACTTCTCAGTCTTTATCTGCTGAAATCATTGGTGAAGAACATTATAATGTAGCTTCTGAGGTGAAACGTATA 188697
+                 | ||||| |||||||      |   | |  | ||||||||  ||||||| ||||| || ||   ||  ||| |    || 
+Tgt    1034028 + TGGATTCGACTTCTCGAATCATGGATCCCAACATCATTGGCCAAGAACACTATAACGTTGCCCGTGGTGTGCAGAAAATC 1034107
+
+Qry     188698 + TTGCAAACTTATAAATCACTGCAAGATATTATCGCAATACTTGGTATGGATGAGCTATCTGATGAAGATAAAATTATTGT 188777
+                 ||||||   || |||||||| || ||||| || || || || || ||||||||| | ||||| ||||||||  | |  ||
+Tgt    1034108 + TTGCAAGACTACAAATCACTTCAGGATATAATAGCCATTCTCGGAATGGATGAGTTGTCTGAGGAAGATAAGCTCACAGT 1034187
+
+Qry     188778 + TGATAGGGCTCGGAAGATTCAG 188799
+                  | | | ||||| |||||||||
+Tgt    1034188 + CGCTCGTGCTCGCAAGATTCAG 1034209
+
+582 cols, 411 ids (70.6%), 0 gaps (0.0%), score 69.0 (128.5 bits), Evalue 3.7e-25
+
+ Query    1267782nt >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+Target   23542271nt >NC_004354.4 Drosophila melanogaster chromosome X
+
+Qry    1075305 + CGCCTCAGCGGTTGGTGGGCATCCAGGGACATACACGTCAACTGGCACAATTCTATCACAGCCTCGGACTACTGAATAAG 1075384
+                 |||||| |||||||| || || || || || || | ||| || || |  || ||||| ||||| ||||| || || || |
+Tgt   15986086 + CGCCTCGGCGGTTGGCGGACAACCGGGTACGTATATGTCGACGGGGATTATCCTATCGCAGCCACGGACGACGGAGTACG 15986165
+
+Qry    1075385 + AGTAATGGTAATAACCACCACCATTTGCACAACTTCCCATGGAAATAACATACTTCGGGTCTGCCATTTGATCATAAACC 1075464
+                 |||||||||| || || || || || ||||| || |||||||| || ||  |    || || | |||||| || || |||
+Tgt   15986166 + AGTAATGGTAGTAGCCGCCGCCGTTGGCACAGCTGCCCATGGAGATGACCCAACGTGGCTCGGGCATTTGGTCGTAGACC 15986245
+
+Qry    1075465 + TTGCGCAATGCTGCTGCCATTTTATTAGTTAGTGTGCCAGCAACAATCATCACATCTGATTGACGTGGGCTTGCACGAAA 1075544
+                 || ||||  || | ||||||||| || || || |||||||| || || || ||||| |  ||||||||   |||||| ||
+Tgt   15986246 + TTTCGCAGGGCCGGTGCCATTTTGTTGGTCAGCGTGCCAGCGACGATGATGACATCGGCCTGACGTGGAGATGCACGGAA 15986325
+
+Qry    1075545 + CATTATACCATATCTATCAAGATCATAACGGCTGGATGCAGTATGCATCATCTCAACTGCGCAACATGCAAGACCAAATG 1075624
+                 ||  | |||||||| ||| |  || |||||    |  ||  | |||||||| || || || || || || | ||| || |
+Tgt   15986326 + CACAACACCATATCGATCCATGTCGTAACGCGGAGCAGCGATGTGCATCATTTCGACGGCACAGCAGGCCAAACCGAAAG 15986405
+
+Qry    1075625 + TCATTGGCCA 1075634
+                 ||| ||||||
+Tgt   15986406 + TCAGTGGCCA 15986415
+
+330 cols, 239 ids (72.4%), 0 gaps (0.0%), score 57.0 (106.4 bits), Evalue 1.7e-18
+
+ Query    1267782nt >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+Target      19524nt >NC_024511.2 Drosophila melanogaster mitochondrion, complete genome
+
+Qry     281088 + CCAGTGCTTGCCGGTGCTATAACTATGCTTCTTACTGATCGCAATATTGGTACTTCCTTTTTTGATCCTGCCGGTGGCGG 281167
+                 ||||| || || || ||||| |||||  |  | || ||||| ||| |   ||| || |||||||| || || || || ||
+Tgt       2065 + CCAGTACTAGCAGGAGCTATTACTATATTATTAACAGATCGAAATTTAAATACATCATTTTTTGACCCAGCGGGAGGAGG 2144
+
+Qry     281168 + CGATCCTGTGTTATTTCAACATCTATTTTGGTTTTTTGGTCATCCAGAAGTTTACGTAATTATTTTTCCTGCATTTGGCA 281247
+                  |||||| | ||||  |||||| ||||||| |||||||||||||| ||||||||  |  | ||||| |||| |||||| |
+Tgt       2145 + AGATCCTATTTTATACCAACATTTATTTTGATTTTTTGGTCATCCTGAAGTTTATATTTTAATTTTACCTGGATTTGGAA 2224
+
+Qry     281248 + TCAT 281251
+                 | ||
+Tgt       2225 + TAAT 2228
+
+164 cols, 124 ids (75.6%), 0 gaps (0.0%), score 44.0 (82.4 bits), Evalue 2.9e-11
+
+ Query    1267782nt >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+Target      76973nt >NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+
+Qry     182848 + GACCGATAGTGAACAAGTACCGTGAGGGAAAGGTGAAAAGAAC 182890
+                 |||||||||| ||||||||||||||||||||| ||||||||||
+Tgt      47125 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAAC 47167
+
+43 cols, 41 ids (95.3%), 0 gaps (0.0%), score 37.0 (69.4 bits), Evalue 2.3e-07
+
+ Query    1267782nt >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+Target      76973nt >NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+
+Qry     182848 + GACCGATAGTGAACAAGTACCGTGAGGGAAAGGTGAAAAGAAC 182890
+                 |||||||||| ||||||||||||||||||||| ||||||||||
+Tgt      71309 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAAC 71351
+
+43 cols, 41 ids (95.3%), 0 gaps (0.0%), score 37.0 (69.4 bits), Evalue 2.3e-07
+
+ Query    1267782nt >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+Target   23542271nt >NC_004354.4 Drosophila melanogaster chromosome X
+
+Qry     182848 + GACCGATAGTGAACAAGTACCGTGAGGGAAAGGTGAAAAGAAC 182890
+                 |||||||||| ||||||||||||||||||||| ||||||||||
+Tgt   23214806 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAAC 23214848
+
+43 cols, 41 ids (95.3%), 0 gaps (0.0%), score 37.0 (69.4 bits), Evalue 2.3e-07
+
+ Query    1267782nt >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+Target   23542271nt >NC_004354.4 Drosophila melanogaster chromosome X
+
+Qry     182848 + GACCGATAGTGAACAAGTACCGTGAGGGAAAGGTGAAAAGAAC 182890
+                 |||||||||| ||||||||||||||||||||| ||||||||||
+Tgt   23206176 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAAC 23206218
+
+43 cols, 41 ids (95.3%), 0 gaps (0.0%), score 37.0 (69.4 bits), Evalue 2.3e-07
+
+ Query    1267782nt >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+Target       2904nt >NW_001845390.1 Drosophila melanogaster chromosome X 211000022278724 sequence
+
+Qry     182848 + GACCGATAGTGAACAAGTACCGTGAGGGAAAGGTGAAAAGAAC 182890
+                 |||||||||| ||||||||||||||||||||| ||||||||||
+Tgt       2512 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAAC 2554
+
+43 cols, 41 ids (95.3%), 0 gaps (0.0%), score 37.0 (69.4 bits), Evalue 2.3e-07
+
+ Query    1267782nt >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+Target      76973nt >NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+
+Qry     182848 + GACCGATAGTGAACAAGTACCGTGAGGGAAAGGTGAAAAGAAC 182890
+                 |||||||||| ||||||||||||||||||||| ||||||||||
+Tgt      17290 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAAC 17332
+
+43 cols, 41 ids (95.3%), 0 gaps (0.0%), score 37.0 (69.4 bits), Evalue 2.3e-07
+
+ Query    1267782nt >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+Target       1315nt >NW_001846251.1 Drosophila melanogaster 211000022279343 sequence
+
+Qry     182848 + GACCGATAGTGAACAAGTACCGTGAGGGAAAGGTGAAAAGAAC 182890
+                 |||||||||| ||||||||||||||||||||| ||||||||||
+Tgt        604 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAAC 646
+
+43 cols, 41 ids (95.3%), 0 gaps (0.0%), score 37.0 (69.4 bits), Evalue 2.3e-07
+
+ Query    1267782nt >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+Target   23513712nt >NT_033779.5 Drosophila melanogaster chromosome 2L
+
+Qry     472437 + GAACCACTAATGGTTACAGCAACATGATTTCCCATAACTTGAGTGCATACCATAGTCACCGCTTCACACTGAGTTGGATT 472516
+                 |||||||  ||||  || || ||||| || ||||| || || |  || | ||| | ||  || || || || || |||||
+Tgt   10190250 + GAACCACCCATGGAGACGGCCACATGGTTGCCCATCACCTGGGCACAGATCATGGACATGGCCTCGCATTGCGTGGGATT 10190329
+
+Qry     472517 + CACTTTACCTGGCATAATTGAAGAACCAGGCTCATTTTCCGGTAACATTATTTCCCCAATTCCGCATCTTGGACCAGAAC 472596
+                 |||||| || ||||| || |||  ||| || || || ||||| |    || ||| |||| |||||| | ||| || || |
+Tgt   10190330 + CACTTTGCCGGGCATTATGGAACTACCTGGTTCGTTCTCCGGCAGATGTAGTTCACCAAATCCGCAACGTGGTCCCGATC 10190409
+
+Qry     472597 + CAAGCAACCTTATATCATTTGCAATTTTCATTAAACTGACTGCTACTGTATTGAGT 472652
+                 |||| || | ||||||||| || || ||||| | |||  |||| |  || ||||||
+Tgt   10190410 + CAAGGAATCGTATATCATTCGCTATCTTCATCACACTCGCTGCAATCGTGTTGAGT 10190465
+
+216 cols, 155 ids (71.8%), 0 gaps (0.0%), score 33.0 (62.1 bits), Evalue 3.8e-05
+
+ Query    1267782nt >NC_002978.6 Wolbachia endosymbiont of Drosophila melanogaster, complete genome
+Target   23542271nt >NC_004354.4 Drosophila melanogaster chromosome X
+
+Qry     150308 + ATCTTGCAAATCGCATTCACCACCCTGATCGCAAATTGGGCAATCAAGCGGGTGGTTAATTAGCAAAAACTC 150379
+                 ||| |||| |||||| || || ||||||||||| || |||||||| ||||| ||||| || ||||  |||||
+Tgt    8250860 + ATCCTGCAGATCGCACTCGCCGCCCTGATCGCAGATGGGGCAATCCAGCGGATGGTTCATCAGCAGGAACTC 8250931
+
+72 cols, 59 ids (81.9%), 0 gaps (0.0%), score 33.0 (62.1 bits), Evalue 3.8e-05
