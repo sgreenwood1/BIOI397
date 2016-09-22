@@ -1,2 +1,9 @@
 usearch -usearch_global /Users/suzannegreenwood/Downloads/influenza b -db /Users/suzannegreenwood/Downloads/influenza a -id 0.8 -strand plus -alnout influenza_ab.FASTA 
 usearch v9.0.2132_i86osx32, 4.0Gb RAM (8.6Gb total), 4 cores
+
+
+
+
+
+
+This is the results for the 0% match 
