@@ -1,0 +1,325 @@
+usearch -ublast /Users/suzannegreenwood/Downloads/wolbachia -db /Users/suzannegreenwood/Downloads/drosophila -evalue 5e-5 -alnout wol_x_dros_reslt.aln -strand plus 
+usearch v9.0.2132_i86osx32, 4.0Gb RAM (8.6Gb total), 4 cores
+
+Query >NZ_JQAM01000005.1 Wolbachia pipientis strain wRec s13, whole genome shotgun sequence
+ Score     Evalue   %Id    QueryLo-Hi(Un)   TargetLo-Hi(Un)  +  Target
+    44      7e-13   76%  2101-2264(27368)  2065-2228(17296)  +  NC_024511.2 Drosophila melanogaster mitochondrion, complete genome
+    44      7e-13   86%  2764-2837(26795)  2731-2804(16720)  +  NC_024511.2 Drosophila melanogaster mitochondrion, complete genome
+
+ Query 29632nt >NZ_JQAM01000005.1 Wolbachia pipientis strain wRec s13, whole genome shotgun sequence
+Target 19524nt >NC_024511.2 Drosophila melanogaster mitochondrion, complete genome
+
+Qry  2101 + CCAGTGCTTGCCGGTGCTATAACTATGCTTCTTACTGATCGCAATATTGGTACTTCCTTTTTTGATCCTGCCGGTGGCGG 2180
+            ||||| || || || ||||| |||||  |  | || ||||| ||| |   ||| || |||||||| || || || || ||
+Tgt  2065 + CCAGTACTAGCAGGAGCTATTACTATATTATTAACAGATCGAAATTTAAATACATCATTTTTTGACCCAGCGGGAGGAGG 2144
+
+Qry  2181 + CGATCCTGTGTTATTTCAACATCTATTTTGGTTTTTTGGTCATCCAGAAGTTTACGTAATTATTTTTCCTGCATTTGGCA 2260
+             |||||| | ||||  |||||| ||||||| |||||||||||||| ||||||||  |  | ||||| |||| |||||| |
+Tgt  2145 + AGATCCTATTTTATACCAACATTTATTTTGATTTTTTGGTCATCCTGAAGTTTATATTTTAATTTTACCTGGATTTGGAA 2224
+
+Qry  2261 + TCAT 2264
+            | ||
+Tgt  2225 + TAAT 2228
+
+164 cols, 124 ids (75.6%), 0 gaps (0.0%), score 44.0 (82.4 bits), Evalue 6.8e-13
+
+ Query 29632nt >NZ_JQAM01000005.1 Wolbachia pipientis strain wRec s13, whole genome shotgun sequence
+Target 19524nt >NC_024511.2 Drosophila melanogaster mitochondrion, complete genome
+
+Qry  2764 + AATTTAACATTTTTCCCCCAACATTTCTTAGGATTAGCCGGTATACCCCGACGATACTCTGATTACCCAGATGC 2837
+            |||||||||||||| || |||||||| |||||||| || || ||||| ||||| || || ||||||||||||||
+Tgt  2731 + AATTTAACATTTTTTCCTCAACATTTTTTAGGATTGGCTGGAATACCTCGACGTTATTCAGATTACCCAGATGC 2804
+
+74 cols, 64 ids (86.5%), 0 gaps (0.0%), score 44.0 (82.4 bits), Evalue 6.8e-13
+
+Query >NZ_JQAM01000015.1 Wolbachia pipientis strain wRec s22, whole genome shotgun sequence
+ Score     Evalue   %Id    QueryLo-Hi(Un)   TargetLo-Hi(Un)  +  Target
+    33      1e-06   72%  14256-14471(19873)  10190250-10190465(13323247)  +  NT_033779.5 Drosophila melanogaster chromosome 2L
+
+ Query      34344nt >NZ_JQAM01000015.1 Wolbachia pipientis strain wRec s22, whole genome shotgun sequence
+Target   23513712nt >NT_033779.5 Drosophila melanogaster chromosome 2L
+
+Qry      14256 + GAACCACTAATGGTTACAGCAACATGATTTCCCATAACTTGAGTGCATACCATAGTCACCGCTTCACACTGAGTTGGATT 14335
+                 |||||||  ||||  || || ||||| || ||||| || || |  || | ||| | ||  || || || || || |||||
+Tgt   10190250 + GAACCACCCATGGAGACGGCCACATGGTTGCCCATCACCTGGGCACAGATCATGGACATGGCCTCGCATTGCGTGGGATT 10190329
+
+Qry      14336 + CACTTTACCTGGCATAATTGAAGAACCAGGCTCATTTTCCGGTAACATTATTTCCCCAATTCCGCATCTTGGACCAGAAC 14415
+                 |||||| || ||||| || |||  ||| || || || ||||| |    || ||| |||| |||||| | ||| || || |
+Tgt   10190330 + CACTTTGCCGGGCATTATGGAACTACCTGGTTCGTTCTCCGGCAGATGTAGTTCACCAAATCCGCAACGTGGTCCCGATC 10190409
+
+Qry      14416 + CAAGCAACCTTATATCATTTGCAATTTTCATTAAACTGACTGCTACTGTATTGAGT 14471
+                 |||| || | ||||||||| || || ||||| | |||  |||| |  || ||||||
+Tgt   10190410 + CAAGGAATCGTATATCATTCGCTATCTTCATCACACTCGCTGCAATCGTGTTGAGT 10190465
+
+216 cols, 155 ids (71.8%), 0 gaps (0.0%), score 33.0 (62.1 bits), Evalue 1e-06
+
+Query >NZ_JQAM01000027.1 Wolbachia pipientis strain wRec s33, whole genome shotgun sequence
+ Score     Evalue   %Id    QueryLo-Hi(Un)   TargetLo-Hi(Un)  +  Target
+    35      2e-08   75%   5939-6081(3144)  12467004-12467146(19612185)  +  NT_033777.3 Drosophila melanogaster chromosome 3R
+    33      3e-07   82%   6017-6088(3137)  24056629-24056700(8022631)  +  NT_033777.3 Drosophila melanogaster chromosome 3R
+    33      3e-07   74%   5939-6082(3143)  11955736-11955879(20123452)  +  NT_033777.3 Drosophila melanogaster chromosome 3R
+
+ Query       9225nt >NZ_JQAM01000027.1 Wolbachia pipientis strain wRec s33, whole genome shotgun sequence
+Target   32079331nt >NT_033777.3 Drosophila melanogaster chromosome 3R
+
+Qry       5939 + TTCTTATCAAGACCATAAGCAAGTGCTGCAGCAGTCGGTTCATTTACTATTCTGAGTACATTTAATCCGGCAATTTTTCC 6018
+                 ||||| || || || || || | |||||| || || || ||||| |  || | ||| ||||| |  ||||| || |  ||
+Tgt   12467004 + TTCTTGTCCAGTCCGTAGGCCAATGCTGCCGCCGTGGGCTCATTGATGATGCGGAGCACATTCAGGCCGGCGATGTGACC 12467083
+
+Qry       6019 + TGCATCTTTTGTTGCTTGACGTTGAGAGTCGTTGAAGTATGCTGGCACTGTTATCACAGCATC 6081
+                  || ||||| || || || || ||||||||||||||||| ||||| ||||| || || |||||
+Tgt   12467084 + GGCGTCTTTGGTAGCCTGGCGCTGAGAGTCGTTGAAGTAAGCTGGAACTGTGATGACTGCATC 12467146
+
+143 cols, 107 ids (74.8%), 0 gaps (0.0%), score 35.0 (65.8 bits), Evalue 2.1e-08
+
+ Query       9225nt >NZ_JQAM01000027.1 Wolbachia pipientis strain wRec s33, whole genome shotgun sequence
+Target   32079331nt >NT_033777.3 Drosophila melanogaster chromosome 3R
+
+Qry       6017 + CCTGCATCTTTTGTTGCTTGACGTTGAGAGTCGTTGAAGTATGCTGGCACTGTTATCACAGCATCTTTTACT 6088
+                 || ||||| |||||||| || || || |||||||||||||| || |||||||| || ||||| || || |||
+Tgt   24056629 + CCAGCATCCTTTGTTGCCTGGCGCTGGGAGTCGTTGAAGTAGGCCGGCACTGTGATGACAGCGTCCTTCACT 24056700
+
+72 cols, 59 ids (81.9%), 0 gaps (0.0%), score 33.0 (62.1 bits), Evalue 2.8e-07
+
+ Query       9225nt >NZ_JQAM01000027.1 Wolbachia pipientis strain wRec s33, whole genome shotgun sequence
+Target   32079331nt >NT_033777.3 Drosophila melanogaster chromosome 3R
+
+Qry       5939 + TTCTTATCAAGACCATAAGCAAGTGCTGCAGCAGTCGGTTCATTTACTATTCTGAGTACATTTAATCCGGCAATTTTTCC 6018
+                 ||||| || || || || || |||||||| || || || ||||| |  || | ||| ||||| |  ||||| || |  ||
+Tgt   11955736 + TTCTTGTCCAGTCCGTAGGCCAGTGCTGCCGCCGTGGGCTCATTGATGATGCGGAGCACATTCAGGCCGGCGATGTGACC 11955815
+
+Qry       6019 + TGCATCTTTTGTTGCTTGACGTTGAGAGTCGTTGAAGTATGCTGGCACTGTTATCACAGCATCT 6082
+                  || ||||| || || || || || |||||||||||||| ||||| ||||| || || || |||
+Tgt   11955816 + GGCGTCTTTGGTAGCCTGGCGCTGGGAGTCGTTGAAGTAGGCTGGAACTGTGATGACTGCGTCT 11955879
+
+144 cols, 107 ids (74.3%), 0 gaps (0.0%), score 33.0 (62.1 bits), Evalue 2.8e-07
+
+Query >NZ_JQAM01000033.1 Wolbachia pipientis strain wRec s39, whole genome shotgun sequence
+ Score     Evalue   %Id    QueryLo-Hi(Un)   TargetLo-Hi(Un)  +  Target
+    57      2e-20   72%   6715-7044(6448)  15986086-15986415(7555856)  +  NC_004354.4 Drosophila melanogaster chromosome X
+
+ Query      13492nt >NZ_JQAM01000033.1 Wolbachia pipientis strain wRec s39, whole genome shotgun sequence
+Target   23542271nt >NC_004354.4 Drosophila melanogaster chromosome X
+
+Qry       6715 + CGCCTCAGCGGTTGGTGGGCATCCAGGGACATACACGTCAACTGGCACAATTCTATCACAGCCTCGGACTACTGAATAAG 6794
+                 |||||| |||||||| || || || || || || | ||| || || |  || ||||| ||||| ||||| || || || |
+Tgt   15986086 + CGCCTCGGCGGTTGGCGGACAACCGGGTACGTATATGTCGACGGGGATTATCCTATCGCAGCCACGGACGACGGAGTACG 15986165
+
+Qry       6795 + AGTAATGGTAATAACCACCACCATTTGCACAACTTCCCATGGAAATAACATACTTCGGGTCTGCCATTTGATCATAAACC 6874
+                 |||||||||| || || || || || ||||| || |||||||| || ||  |    || || | |||||| || || |||
+Tgt   15986166 + AGTAATGGTAGTAGCCGCCGCCGTTGGCACAGCTGCCCATGGAGATGACCCAACGTGGCTCGGGCATTTGGTCGTAGACC 15986245
+
+Qry       6875 + TTGCGCAATGCTGCTGCCATTTTATTAGTTAGTGTGCCAGCAACAATCATCACATCTGATTGACGTGGGCTTGCACGAAA 6954
+                 || ||||  || | ||||||||| || || || |||||||| || || || ||||| |  ||||||||   |||||| ||
+Tgt   15986246 + TTTCGCAGGGCCGGTGCCATTTTGTTGGTCAGCGTGCCAGCGACGATGATGACATCGGCCTGACGTGGAGATGCACGGAA 15986325
+
+Qry       6955 + CATTATACCATATCTATCAAGATCATAACGGCTGGATGCAGTATGCATCATCTCAACTGCGCAACATGCAAGACCAAATG 7034
+                 ||  | |||||||| ||| |  || |||||    |  ||  | |||||||| || || || || || || | ||| || |
+Tgt   15986326 + CACAACACCATATCGATCCATGTCGTAACGCGGAGCAGCGATGTGCATCATTTCGACGGCACAGCAGGCCAAACCGAAAG 15986405
+
+Qry       7035 + TCATTGGCCA 7044
+                 ||| ||||||
+Tgt   15986406 + TCAGTGGCCA 15986415
+
+330 cols, 239 ids (72.4%), 0 gaps (0.0%), score 57.0 (106.4 bits), Evalue 1.8e-20
+
+Query >NZ_JQAM01000039.1 Wolbachia pipientis strain wRec s5, whole genome shotgun sequence
+ Score     Evalue   %Id    QueryLo-Hi(Un)   TargetLo-Hi(Un)  +  Target
+    33      9e-07   82%  11390-11461(18354)  8250860-8250931(15291340)  +  NC_004354.4 Drosophila melanogaster chromosome X
+
+ Query      29815nt >NZ_JQAM01000039.1 Wolbachia pipientis strain wRec s5, whole genome shotgun sequence
+Target   23542271nt >NC_004354.4 Drosophila melanogaster chromosome X
+
+Qry      11390 + ATCTTGCAAATCGCATTCACCACCCTGATCGCAAATTGGGCAATCAAGCGGGTGGTTAATTAGCAAAAACTC 11461
+                 ||| |||| |||||| || || ||||||||||| || |||||||| ||||| ||||| || ||||  |||||
+Tgt    8250860 + ATCCTGCAGATCGCACTCGCCGCCCTGATCGCAGATGGGGCAATCCAGCGGATGGTTCATCAGCAGGAACTC 8250931
+
+72 cols, 59 ids (81.9%), 0 gaps (0.0%), score 33.0 (62.1 bits), Evalue 8.9e-07
+
+Query >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+ Score     Evalue   %Id    QueryLo-Hi(Un)   TargetLo-Hi(Un)  +  Target
+    76      2e-30  100%  15960-16035(25561)    1277-1352(611)  +  NW_001845808.1 Drosophila melanogaster chromosome X 211000022278879 sequence
+    76      2e-30  100%  15960-16035(25561)  10740-10815(1372)  +  NW_001844974.1 Drosophila melanogaster chromosome X 211000022279676 sequence
+    76      2e-30  100%  15960-16035(25561)  37893-37968(39005)  +  NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+    76      2e-30  100%  15960-16035(25561)  74077-74152(2821)  +  NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+    70      3e-27   97%  15960-16035(25561)  23240128-23240203(302068)  +  NC_004354.4 Drosophila melanogaster chromosome X
+    70      3e-27   97%  15960-16035(25561)    1008-1083(101)  +  NW_001846569.1 Drosophila melanogaster 211000022278202 sequence
+    69      1e-26   71%  19650-20231(21365)  1033628-1034209(313922)  +  NC_004353.4 Drosophila melanogaster chromosome 4
+    47      2e-14  100%  14279-14325(27271)    2512-2558(346)  +  NW_001845390.1 Drosophila melanogaster chromosome X 211000022278724 sequence
+    47      2e-14  100%  14279-14325(27271)  23214806-23214852(327419)  +  NC_004354.4 Drosophila melanogaster chromosome X
+    47      2e-14  100%  14279-14325(27271)  23206176-23206222(336049)  +  NC_004354.4 Drosophila melanogaster chromosome X
+    47      2e-14  100%  14279-14325(27271)      604-650(665)  +  NW_001846251.1 Drosophila melanogaster 211000022279343 sequence
+    47      2e-14  100%  14279-14325(27271)  71309-71355(5618)  +  NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+    47      2e-14  100%  14279-14325(27271)  47125-47171(29802)  +  NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+    47      2e-14  100%  14279-14325(27271)  17290-17336(59637)  +  NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+
+ Query 41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target  1963nt >NW_001845808.1 Drosophila melanogaster chromosome X 211000022278879 sequence
+
+Qry 15960 + AGGACATTGCCAGGTAGGGAGTTTGACTGGGGCGGTACATCTCTCAAATAATAACGGAGGTGTCCCAAGGCCAGCT 16035
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  1277 + AGGACATTGCCAGGTAGGGAGTTTGACTGGGGCGGTACATCTCTCAAATAATAACGGAGGTGTCCCAAGGCCAGCT 1352
+
+76 cols, 76 ids (100.0%), 0 gaps (0.0%), score 76.0 (141.5 bits), Evalue 1.6e-30
+
+ Query 41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target 12187nt >NW_001844974.1 Drosophila melanogaster chromosome X 211000022279676 sequence
+
+Qry 15960 + AGGACATTGCCAGGTAGGGAGTTTGACTGGGGCGGTACATCTCTCAAATAATAACGGAGGTGTCCCAAGGCCAGCT 16035
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 10740 + AGGACATTGCCAGGTAGGGAGTTTGACTGGGGCGGTACATCTCTCAAATAATAACGGAGGTGTCCCAAGGCCAGCT 10815
+
+76 cols, 76 ids (100.0%), 0 gaps (0.0%), score 76.0 (141.5 bits), Evalue 1.6e-30
+
+ Query 41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target 76973nt >NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+
+Qry 15960 + AGGACATTGCCAGGTAGGGAGTTTGACTGGGGCGGTACATCTCTCAAATAATAACGGAGGTGTCCCAAGGCCAGCT 16035
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 37893 + AGGACATTGCCAGGTAGGGAGTTTGACTGGGGCGGTACATCTCTCAAATAATAACGGAGGTGTCCCAAGGCCAGCT 37968
+
+76 cols, 76 ids (100.0%), 0 gaps (0.0%), score 76.0 (141.5 bits), Evalue 1.6e-30
+
+ Query 41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target 76973nt >NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+
+Qry 15960 + AGGACATTGCCAGGTAGGGAGTTTGACTGGGGCGGTACATCTCTCAAATAATAACGGAGGTGTCCCAAGGCCAGCT 16035
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 74077 + AGGACATTGCCAGGTAGGGAGTTTGACTGGGGCGGTACATCTCTCAAATAATAACGGAGGTGTCCCAAGGCCAGCT 74152
+
+76 cols, 76 ids (100.0%), 0 gaps (0.0%), score 76.0 (141.5 bits), Evalue 1.6e-30
+
+ Query      41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target   23542271nt >NC_004354.4 Drosophila melanogaster chromosome X
+
+Qry      15960 + AGGACATTGCCAGGTAGGGAGTTTGACTGGGGCGGTACATCTCTCAAATAATAACGGAGGTGTCCCAAGGCCAGCT 16035
+                 |||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||
+Tgt   23240128 + AGGACATTGCCAGGTAGGGAGTTTGACTGGGGCGGTAAGTCTCTCAAATAATAACGGAGGTGTCCCAAGGCCAGCT 23240203
+
+76 cols, 74 ids (97.4%), 0 gaps (0.0%), score 70.0 (130.4 bits), Evalue 3.4e-27
+
+ Query 41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target  1184nt >NW_001846569.1 Drosophila melanogaster 211000022278202 sequence
+
+Qry 15960 + AGGACATTGCCAGGTAGGGAGTTTGACTGGGGCGGTACATCTCTCAAATAATAACGGAGGTGTCCCAAGGCCAGCT 16035
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||
+Tgt  1008 + AGGACATTGCCAGGTAGGGAGTTTGACTGGGGCGGTACATCTCTCAAATAATAACGGAGGTGTTCCAAGGACAGCT 1083
+
+76 cols, 74 ids (97.4%), 0 gaps (0.0%), score 70.0 (130.4 bits), Evalue 3.4e-27
+
+ Query      41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target    1348131nt >NC_004353.4 Drosophila melanogaster chromosome 4
+
+Qry      19650 + GTTTATGGTCAGATGAATGAGCCTCCTGGAGCAAGGGCTAGAGTTGCTTTAACAGCACTTACTATGGCAGAGTATTTTCG 19729
+                 || ||||| || ||||| ||||| || || ||  | ||  | |||||| |||| | ||| ||  | |||||||| || ||
+Tgt    1033628 + GTATATGGGCAAATGAACGAGCCGCCAGGTGCTCGTGCCCGTGTTGCTCTAACTGGACTGACCGTTGCAGAGTACTTCCG 1033707
+
+Qry      19730 + TGACCGTGAAAACCAAGATGTTCTATTTTTTGTGGATAATATCTTTAGATTTACACAAGCTGGTTCTGAAATTTCTGCTT 19809
+                 ||| |  |||   || |||||  |  | ||| | || || || ||  ||||||| |||||||| || ||| | || ||||
+Tgt    1033708 + TGATCAAGAAGGACAGGATGTGTTGCTGTTTATCGACAACATTTTCCGATTTACTCAAGCTGGCTCAGAAGTGTCCGCTT 1033787
+
+Qry      19810 + TACTTGGAAGAATACCGTCAGCTGTTGGTTATCAGCCAACCCTTGCAACTGATATGGGTGCAATGCAAGAAAGAATAGCT 19889
+                 |  | ||  | || || ||||| || ||||| ||||||||| | || || || |||||| | ||||| ||  | ||  | 
+Tgt    1033788 + TGTTGGGTCGTATTCCCTCAGCCGTCGGTTACCAGCCAACCTTGGCTACCGACATGGGTTCTATGCAGGAGCGTATTACC 1033867
+
+Qry      19890 + TCAACAACTTCTGGCTCTATTACTTCTGTGCAAGCTATATATGTTCCTGCGGACGATTTGACTGATCCAGCCCCAGCAAC 19969
+                  | || |     || || ||||||||||| || || |||||||| || || || |||||||| ||||| || || || ||
+Tgt    1033868 + ACCACCAAAAAGGGATCCATTACTTCTGTTCAGGCCATATATGTGCCCGCTGATGATTTGACCGATCCTGCTCCTGCTAC 1033947
+
+Qry      19970 + TACATTCTCTCACCTTGATGCAACCACAGTGTTGTCAAGGCAAATAGCTGAAATGGGAATATACCCTGCTGTTGATCCAC 20049
+                 ||||||| ||||  | ||||| ||||| ||  | ||  |    || || ||| |||| || ||||||||||| |||||||
+Tgt    1033948 + TACATTCGCTCATTTGGATGCCACCACTGTACTCTCGCGTGCGATTGCCGAACTGGGTATTTACCCTGCTGTGGATCCAC 1034027
+
+Qry      20050 + TTGATTCAACTTCTCAGTCTTTATCTGCTGAAATCATTGGTGAAGAACATTATAATGTAGCTTCTGAGGTGAAACGTATA 20129
+                 | ||||| |||||||      |   | |  | ||||||||  ||||||| ||||| || ||   ||  ||| |    || 
+Tgt    1034028 + TGGATTCGACTTCTCGAATCATGGATCCCAACATCATTGGCCAAGAACACTATAACGTTGCCCGTGGTGTGCAGAAAATC 1034107
+
+Qry      20130 + TTGCAAACTTATAAATCACTGCAAGATATTATCGCAATACTTGGTATGGATGAGCTATCTGATGAAGATAAAATTATTGT 20209
+                 ||||||   || |||||||| || ||||| || || || || || ||||||||| | ||||| ||||||||  | |  ||
+Tgt    1034108 + TTGCAAGACTACAAATCACTTCAGGATATAATAGCCATTCTCGGAATGGATGAGTTGTCTGAGGAAGATAAGCTCACAGT 1034187
+
+Qry      20210 + TGATAGGGCTCGGAAGATTCAG 20231
+                  | | | ||||| |||||||||
+Tgt    1034188 + CGCTCGTGCTCGCAAGATTCAG 1034209
+
+582 cols, 411 ids (70.6%), 0 gaps (0.0%), score 69.0 (128.5 bits), Evalue 1.2e-26
+
+ Query 41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target  2904nt >NW_001845390.1 Drosophila melanogaster chromosome X 211000022278724 sequence
+
+Qry 14279 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 14325
+            |||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  2512 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 2558
+
+47 cols, 47 ids (100.0%), 0 gaps (0.0%), score 47.0 (87.9 bits), Evalue 2.1e-14
+
+ Query      41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target   23542271nt >NC_004354.4 Drosophila melanogaster chromosome X
+
+Qry      14279 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 14325
+                 |||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   23214806 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 23214852
+
+47 cols, 47 ids (100.0%), 0 gaps (0.0%), score 47.0 (87.9 bits), Evalue 2.1e-14
+
+ Query      41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target   23542271nt >NC_004354.4 Drosophila melanogaster chromosome X
+
+Qry      14279 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 14325
+                 |||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   23206176 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 23206222
+
+47 cols, 47 ids (100.0%), 0 gaps (0.0%), score 47.0 (87.9 bits), Evalue 2.1e-14
+
+ Query 41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target  1315nt >NW_001846251.1 Drosophila melanogaster 211000022279343 sequence
+
+Qry 14279 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 14325
+            |||||||||||||||||||||||||||||||||||||||||||||||
+Tgt   604 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 650
+
+47 cols, 47 ids (100.0%), 0 gaps (0.0%), score 47.0 (87.9 bits), Evalue 2.1e-14
+
+ Query 41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target 76973nt >NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+
+Qry 14279 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 14325
+            |||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 71309 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 71355
+
+47 cols, 47 ids (100.0%), 0 gaps (0.0%), score 47.0 (87.9 bits), Evalue 2.1e-14
+
+ Query 41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target 76973nt >NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+
+Qry 14279 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 14325
+            |||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 47125 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 47171
+
+47 cols, 47 ids (100.0%), 0 gaps (0.0%), score 47.0 (87.9 bits), Evalue 2.1e-14
+
+ Query 41596nt >NZ_JQAM01000040.1 Wolbachia pipientis strain wRec s6, whole genome shotgun sequence
+Target 76973nt >NW_007931121.1 Drosophila melanogaster chromosome X; Y rDNA sequence
+
+Qry 14279 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 14325
+            |||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 17290 + GACCGATAGTAAACAAGTACCGTGAGGGAAAGTTGAAAAGAACTCTG 17336
+
+47 cols, 47 ids (100.0%), 0 gaps (0.0%), score 47.0 (87.9 bits), Evalue 2.1e-14
+
+Query >NZ_JQAM01000036.1 Wolbachia pipientis strain wRec s41, whole genome shotgun sequence
+ Score     Evalue   %Id    QueryLo-Hi(Un)   TargetLo-Hi(Un)  +  Target
+    32      1e-05   76%  67119-67231(49961)  5562188-5562300(22547927)  +  NT_037436.4 Drosophila melanogaster chromosome 3L
+
+ Query     117192nt >NZ_JQAM01000036.1 Wolbachia pipientis strain wRec s41, whole genome shotgun sequence
+Target   28110227nt >NT_037436.4 Drosophila melanogaster chromosome 3L
+
+Qry      67119 + CCACCACCAACATCCAAAAAGTTAGCAGGCTCTGCTCCGTAGTATTTTATTATATCCATTGTTGCCATAGCAAGACCTGC 67198
+                 ||||| || || ||||||||||| || |||||  |||| |     || || || ||||| || ||||| || || || ||
+Tgt    5562188 + CCACCGCCGACGTCCAAAAAGTTGGCGGGCTCGCCTCCATTCAGCTTGATGATGTCCATGGTGGCCATGGCCAGGCCGGC 5562267
+
+Qry      67199 + ACCATTTACCATGCAACCAATACTGCCATCCAT 67231
+                 |||||| |||| ||| |||||  ||||||||||
+Tgt    5562268 + ACCATTAACCAAGCAGCCAATGTTGCCATCCAT 5562300
+
+113 cols, 86 ids (76.1%), 0 gaps (0.0%), score 32.0 (60.2 bits), Evalue 1.3e-05
